@@ -1,23 +1,13 @@
                   /* OVERALL LAYOUT */
 /* Layout IDs */
 #header{position:relative;}
-#sitetitle{float:left;margin:30px 0 10px 30px;}
-#sitetitle h1 {font-size:40px;color:#777;margin:0;padding:0;}
-#header-image{height:300px;margin:0;padding:0;}
+#sitetitle{float:left;margin:30px 0 10px 30px;font-size:40px;color:#777;margin:0;padding:0;}
+#banner{height:300px;margin:0;padding:0;}
+#nav{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;color:#797777;display:block;font-size:12px;padding-top:0;text-transform:uppercase;}
 #content{padding:15px 30px;background-color:#fafafa;}
-#extended{padding:15px 30px;background-color:#fff;}
-#extended a{text-decoration:underline;}
 #footer{clear:both;background-color:#fafafa;color:#777;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
 
                /* APPEARNACE OF CONTENT */
-/* Main navigation menu */
-#nav{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;}
-#nav ul{list-style:none;margin:30px 30px 26px 20px;}
-#nav ul li{background:none!important;display:inline-block;text-align:right;height:auto;line-height:25px;margin-bottom:0;margin-left:25px;position:relative;}
-#nav ul li a{color:#797777;display:block;font-size:12px;padding-top:0;text-transform:uppercase;}
-#nav ul li a:hover{color:#111;}
-#nav ul li a.current{color:#000;}
-
 /* HTML elements */
 body{background-color:#f2f2f2;color:#666;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
 a{color:#a54569;text-decoration:none;}
