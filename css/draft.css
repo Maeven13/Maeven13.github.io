@@ -1,20 +1,18 @@
                   /* OVERALL LAYOUT */
 /* Layout IDs */
-container .col-sm-8 {position: relative;}
-header{position:relative;}
-title{float:left;margin:30px 0 10px 30px;font-size:40px;color:#777;margin:0;padding:0;}
-banner{height:300px;margin:0;padding:0;}
-navbar{float:right;}
-content{padding:15px 30px;background-color:#fafafa;}
-footer{clear:both;background-color:#fafafa;}
+#container {position: relative;}
+#header{position:relative;}
+#title{float:left;margin:30px 0 10px 30px;font-size:40px;color:#777;margin:0;padding:0;}
+#banner{height:300px;}
+#navbar{float:right;font-family:Arial;text-align:center; color:#797777;display:block;font-size:12px;text-transform:uppercase;}
+#content{padding:15px 30px;background-color:#fafafa;}
+#footer{clear:both;background-color:#fafafa;color:#777;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
 
                /* APPEARNACE OF CONTENT */
 /* HTML elements */
 body{font-family:Arial;font-size:13px;line-height:1.6em;color:#666;text-align:justify;}
 h1{color:#5c5a5a;font-size:2.6em;}
 h2{color:#5c5a5a;font-size:2.4em;}
-nav{font-family:Arial;text-align:center; color:#797777;display:block;font-size:12px;text-transform:uppercase;}
-footer{color:#777;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
 
             /* ALIGNMENT OF IMAGES IN CONTENT */
 /* Image alignment */
