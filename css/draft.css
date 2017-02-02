@@ -11,8 +11,8 @@
                /* APPEARNACE OF CONTENT */
 /* HTML elements */
 body{font-family:Arial;font-size:13px;line-height:1.6em;color:#666;text-align:justify;}
-h1{color:#5c5a5a;font-size:2.6em;}
-h2{color:#5c5a5a;font-size:2.4em;}
+h1{font-size:2.6em;}
+h2{font-size:2.4em;}
 
             /* ALIGNMENT OF IMAGES IN CONTENT */
 /* Image alignment */
