@@ -1,9 +1,10 @@
                   /* OVERALL LAYOUT */
 /* Layout IDs */
+container .col-sm-8 {position: relative;}
 #header{position:relative;}
 #sitetitle{float:left;margin:30px 0 10px 30px;font-size:40px;color:#777;margin:0;padding:0;}
 #banner{height:300px;margin:0;padding:0;}
-#nav{float:right;}
+#navbar{float:right;}
 #content{padding:15px 30px;background-color:#fafafa;}
 #footer{clear:both;background-color:#fafafa;}
 
