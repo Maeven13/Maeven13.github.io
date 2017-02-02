@@ -1,30 +1,3 @@
-*{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
-
-/* font*/
-@font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans'), local('DroidSans'), url(font/1.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(font/2.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Yanone Kaffeesatz';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(font/3.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 /* HTML elements */
 body{background-color:#f2f2f2;color:#666;font-family:'Droid Sans',Tahoma,Arial,sans-serif;font-size:13px;line-height:1.6em;}
 a{color:#a54569;text-decoration:none;}
@@ -105,11 +78,6 @@ img.alignleft,img.aligncenter,img.alignright{background:#fff;padding:4px;margin-
 * html .clearfix{height:1%;}
 *:first-child+html .clearfix{min-height:1%;}
 
-/* Alternate color scheme, add class="altcolors" to the body tag to apply */
-.altcolors{background-color:#e6e8e8;}
-.altcolors #wrapper600, .altcolors #wrapper760, .altcolors #wrapper960, .altcolors #wrapper1240, .altcolors #wrapperfluid {box-shadow: 0px 0px 28px #888;}
-.altcolors #toplinks, .altcolors #footer{background-color:#eaecec;}
-.altcolors #content{background-color:#f2f4f4;}
 
 /* Mobile styles */
 #wrappermobile {width:100%; margin:0px auto;}
