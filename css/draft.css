@@ -7,12 +7,7 @@
 #content{padding:15px 30px;background-color:#fafafa;}
 #extended{padding:15px 30px;background-color:#fff;}
 #extended a{text-decoration:underline;}
-
-/* Footer */
-#footer{clear:both;background-color:#fafafa;}
-#footer p{color:#777;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
-#footer a{color:#777;}
-#footer a:hover{color:#333;}
+#footer{clear:both;background-color:#fafafa;color:#777;font-size:12px;margin:0;padding:15px 30px;text-align:center;}
 
                /* APPEARNACE OF CONTENT */
 /* Main navigation menu */
