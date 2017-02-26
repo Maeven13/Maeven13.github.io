@@ -36,7 +36,15 @@
 	</div>
 
 	<div id="content" class="clearfix shadow">
-		<div id="github-projects"></div>
+		<div id="github-projects">
+			<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+			<script src="/scripts/github.js" type="text/javascript"></script>
+			<script type="text/javascript">
+			  $(function() {
+			    $("#github-projects").loadRepositories("Maeven13");
+			  });
+			</script>
+		</div>
 	</div>
 
 	<div id="footer" class="shadow">
@@ -48,14 +56,6 @@
 	$(window).load(function() {
 		$('#slider').nivoSlider();
 	});
-</script>
-	
-<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-<script src="/scripts/github.js" type="text/javascript"></script>
-<script type="text/javascript">
-  $(function() {
-    $("#github-projects").loadRepositories("Maeven13");
-  });
 </script>
 	
 </body>
