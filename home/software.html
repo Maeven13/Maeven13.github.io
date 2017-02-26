@@ -36,9 +36,7 @@
 	</div>
 
 	<div id="content" class="clearfix shadow">
-		<script type="text/javascript"> 
-    			$('body').repo({ user: 'twitter', name: 'scala-bootstrapper' });
-		</script>
+		<div id="github-projects"></div>
 	</div>
 
 	<div id="footer" class="shadow">
@@ -51,5 +49,14 @@
 		$('#slider').nivoSlider();
 	});
 </script>
+	
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/scripts/github.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() {
+    $("#github-projects").loadRepositories("Maeven13");
+  });
+</script>
+	
 </body>
 </html>
